@@ -1,0 +1,26 @@
+[package]
+
+name = "clang-sys-linkage"
+authors = ["Kyle Mayes <kyle@mayeses.com>"]
+
+version = "1.0.0"
+
+readme = "README.md"
+license = "Apache-2.0"
+
+description = "Handles linking to the `libclang` native library for the `clang-sys` crate."
+
+documentation = "https://kylemayes.github.io/clang-sys/runtime/clang_sys_linkage"
+repository = "https://github.com/KyleMayes/clang-sys"
+
+links = "clang"
+build = "build.rs"
+
+[features]
+
+runtime = []
+static = []
+
+[build-dependencies]
+
+glob = "0.3"

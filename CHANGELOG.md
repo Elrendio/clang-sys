@@ -1,3 +1,8 @@
+## [0.29.3] - UNRELEASED
+
+# Added
+- Added `clang-sys-linkage` dependency to handle linking to `libclang` ([#95](https://github.com/KyleMayes/clang-sys/pull/95))
+
 ## [0.29.3] - 2020-03-31
 
 ### Added
